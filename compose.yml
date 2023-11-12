@@ -1,0 +1,15 @@
+version: '3'
+services:
+    container1:
+        image: worker-app
+        ports:
+            - "8085:5000"
+
+    container2:
+        image: worker-app
+        ports:
+            - "8086:5000"
+
+    redis:
+        image: "redis:alpine"
+
