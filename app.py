@@ -4,7 +4,6 @@ from transformers import DistilBertTokenizer, DistilBertForSequenceClassificatio
 import torch 
 import random
 import string
-from app import app
 
 
 app = Flask(__name__)
